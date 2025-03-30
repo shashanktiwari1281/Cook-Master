@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cook Master</string>
+    <string name="categories">श्रेणियाँ</string>
+    <string name="add_category">श्रेणी जोड़ना</string>
+    <string name="ingredients">सामग्री</string>
+    <string name="place_your_advertisement_here">अपना विज्ञापन यहां डालें</string>
+    <string name="about_the_dish">डिश के बारे में</string>
+    <string name="instructions">निर्देश</string>
+    <string name="recipe_video">रेसिपी वीडियो</string>
+    <string name="rate_this_recipe">इस रेसिपी को रेटिंग दें</string>
+    <string name="change_language">भाषा बदलें</string>
+    <string name="share_app">ऐप शेयर करें</string>
+    <string name="rate_us">हमें रेटिंग दें</string>
+    <string name="report_issue">समस्या की रिपोर्ट करें</string>
+    <string name="suggest_a_feature">नई सुविधा का सुझाव दें</string>
+    <string name="search_category">श्रेणी खोजें</string>
+    <string name="choose_the_language">भाषा चुनें</string>
+    <string name="got_it">समझ गया</string>
+    <string name="my_favourite_recipe">मेरी पसंदीदा रेसिपी</string>
+    <string name="required">(आवश्यक)</string>
+    <string name="submit">जमा करना</string>
+    <string name="thank_you">धन्यवाद!</string>
+    <string name="reportResponse">आपकी रिपोर्ट निगरानी में है। हमारी टीम जल्द ही समस्या का समाधान करेगी।</string>
+    <string name="close">बंद करें</string>
+    <string name="please_wait">कृपया प्रतीक्षा करें…</string>
+    <string name="video">वीडियो</string>
+    <string name="no_recipe_found">"कोई रेसिपी नहीं मिला  "</string>
+    <string name="suggestionResponse">हमें अपने उपयोगकर्ताओं से प्रतिक्रिया सुनना बहुत पसंद है! आपका सुझाव मूल्यवान है, और हम यह पता लगाएंगे कि हम इसे एप्लिकेशन में कैसे ला सकते हैं।</string>
+    <string name="slogan">हर निवाले का मज़ा लें!</string>
+</resources>

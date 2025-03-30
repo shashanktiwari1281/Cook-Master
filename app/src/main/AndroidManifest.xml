@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CookMaster"
+        tools:targetApi="31">
+        <activity
+            android:name=".myFavouriteRecipe"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".addNewRecipe"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".loginActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".recipeViewActivity"
+            android:screenOrientation="fullSensor"
+            android:exported="false" />
+        <activity
+            android:name=".recipeListActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".launcherActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".addFoodCategoryActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".adminHome"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".subCategoryListActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".foodCategoryListActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2274745696222909~2861911878" />
+    </application>
+
+</manifest>

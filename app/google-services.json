@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "589803426841",
+    "project_id": "cook-master-c8e7a",
+    "storage_bucket": "cook-master-c8e7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589803426841:android:5230eabb08a062545fc688",
+        "android_client_info": {
+          "package_name": "com.cookmaster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHixRUwdDoqHBBVwEg8tJN0Z5Ab4vZLRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addNewRecipe">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/thumbnailImage"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/thumbnail" />
+        <Button
+            android:id="@+id/chooseThumbnailBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose thumbnail"/>
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="thumbnail and icon is same."/>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="50dp"
+            android:layout_margin="3dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" >
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/image"
+                android:src="@drawable/logo"/>
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:id="@+id/chooseIconBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose icon"/>
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="name"/>
+        <EditText
+            android:id="@+id/name_hi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="name-hi"/>
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="category"/>
+        <EditText
+            android:id="@+id/cookingTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="recipeTime(minute only)"/>
+        <EditText
+            android:id="@+id/energy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="calories contains(calories only)"/>
+        <EditText
+            android:id="@+id/serve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="serve(number only)"/>
+        <EditText
+            android:id="@+id/aboutRecipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="About Recipe"/>
+        <EditText
+            android:id="@+id/aboutRecipe_hi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="About Recipe-hi"/>
+        <EditText
+            android:id="@+id/ingredient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="ingredients"/>
+        <EditText
+            android:id="@+id/ingredient_hi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="ingredients-hi"/>
+        <EditText
+            android:id="@+id/instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="instructions"/>
+        <EditText
+            android:id="@+id/instruction_hi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="instructions-hi"/>
+        <EditText
+            android:id="@+id/videoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="videoId"/>
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">Cook Master</string>
+    <string name="categories">Categories</string>
+    <string name="add_category">Add Category</string>
+    <string name="image" translatable="false">image</string>
+    <string name="thumbnail" translatable="false">Thumbnail</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="place_your_advertisement_here">Place your Advertisement Here</string>
+    <string name="ad_app_id" translatable="false">ca-app-pub-2274745696222909~2861911878</string>
+    <string name="ad_at_recipe_view_below_above_instruction_id" translatable="false">ca-app-pub-2274745696222909/9388270706</string>
+    <string name="n_a" translatable="false">N/A</string>
+    <string name="about_the_dish">About the Dish</string>
+    <string name="rate_this_recipe">Rate this Recipe</string>
+    <string name="instructions">instructions</string>
+    <string name="recipe_video">Recipe Video</string>
+    <string name="change_language">Change Language</string>
+    <string name="share_app">Share App</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="report_issue">Report Issue</string>
+    <string name="suggest_a_feature">Suggest new feature</string>
+    <string name="shashank_tiwari" translatable="false">Shashank Tiwari</string>
+    <string name="developed_by" translatable="false">Developed by</string>
+    <string name="enter_your_email" translatable="false">Enter Your Email</string>
+    <string name="enter_your_name" translatable="false">Enter your Name</string>
+    <string name="choose_the_language">Choose the Language</string>
+    <string name="got_it">Got It</string>
+    <string name="my_favourite_recipe">My Favourite Recipe</string>
+    <string name="required">(Required)</string>
+    <string name="submit">Submit</string>
+    <string name="thank_you">Thank\nYou!</string>
+    <string name="reportResponse">Your report is under monitoring. Our team will resolve the issue soon.</string>
+    <string name="close">Close</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="recipe_added">Recipe Added</string>
+    <string name="select_category">Select Category</string>
+    <string name="video">Video</string>
+    <string name="no_recipe_found">No Recipe Found</string>
+    <string name="suggestionResponse">We love hearing feedback from our users! Your suggestion is valuable, and we will figure out how we can bring it into the application.</string>
+    <string name="slogan">Savor Every Bite!</string>
+    <string name="category_search">"Search Category or Recipe…"</string>
+    <string name="recipe_search">"Search Recipe…"</string>
+</resources>

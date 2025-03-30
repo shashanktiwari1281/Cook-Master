@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/myFavouriteRecipe"
+        android:title="@string/my_favourite_recipe"/>
+    <item
+        android:id="@+id/changeLanguage"
+        android:title="@string/change_language"/>
+    <item
+        android:id="@+id/reportIssue"
+        android:title="@string/report_issue"/>
+    <item
+        android:id="@+id/suggestFeature"
+        android:title="@string/suggest_a_feature"/>
+</menu>

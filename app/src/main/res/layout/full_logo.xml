@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="10dp"
+    android:gravity="center"
+    android:id="@+id/full_Logo">
+<ImageView
+    android:id="@+id/logo"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:src="@drawable/logo" />
+
+<TextView
+    android:id="@+id/textCook"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:gravity="center_vertical"
+    android:text="Cook "
+    android:textColor="#52CB57"
+    android:textSize="30dp"
+    android:layout_toEndOf="@+id/logo"
+    android:textStyle="italic|bold"/>
+
+<TextView
+    android:id="@+id/textMaster"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:gravity="center_vertical"
+    android:text="Master"
+    android:textColor="#F44336"
+    android:layout_toEndOf="@+id/textCook"
+    android:textSize="30dp"
+    android:textStyle="italic|bold" />
+</RelativeLayout>
